@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8"/>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <!-- The above 3 meta tags *must* come first in the head -->
+            <meta name="description" content="Coming,Soon"/>
+            <!-- tab title -->
+            <title>Orbit Coming Soon</title>
+            <!-- tab fav Icon -->
+            <link rel="icon" type="image/png" sizes="16x16" href="favicon/16x16.png">
+            <!-- Bootstrap plug in css file -->
+            <link href="Css/bootstrap.css" rel="stylesheet" />
+            <!-- font awesome plug in css file -->
+            <link href="Css/font-awesome.css" rel="stylesheet"/>
+            <!-- Google font -->
+            <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"/>
+            <!-- the main Css style file -->
+            <link href="Css/orbit.css" rel="stylesheet"/> 
+            <!--
+            The next HTML5 shiv and Respond js files for IE8 support of HTML5 elements
+            and media queries
+            -->
+            <script src="js/html5shiv.min.js"></script>
+            <script src="js/respond.min.js"></script>
+        </head>
+        <body>
+            
+            <!-- =========================
+            Start slideshow-containet it's container for all page except loading page
+            ========================== -->
+            
+            <div class="slideshow-container">
+                <!-- The next 3 div tags for background Images -->
+                <div class="mySlides  fade  first">
+                  <img src="Images/1.jpg" alt="background" style="width:100%">
+                </div>
+              
+                <div class="mySlides  fade">
+                  <img src="Images/2.jpg" alt="background" style="width:100%">
+                </div>
+              
+                <div class="mySlides  fade">
+                  <img src="Images/3.jpg" alt="background" style="width:100%">
+                </div>
+                
+            
+                <main>
+                    
+                    <div class="container">
+                        
+                        <!-- ========= header container for logo Image ========= -->
+                        <header>
+                            <!-- Logo path here -->
+                            <img class="img-responsive" src="Images/Orbit-Logo.png" alt="logo"/>
+                        </header>
+                        
+                        <!-- coming soon title -->
+                        <h1>Coming Soon</h1>
+                        
+                        <!-- ===========
+                        Start wrapper container for choice links,page 1*timer*,2,3 and 4
+                        ============== -->
+                        <div class="wrapper">
+                                <!-- The next 4 a tags for Choice links -->
+                                <a href="#one" class="choice active">Home</a>
+                                <a href="#two" class="choice">A bout us</a>
+                                <a href="#three" class="choice">Services</a>
+                                <a href="#four" class="choice">Subscription</a>
+                            
+                            <hr/>
+                            
+                            <!-- Start slides container for 1,2,3 and 4 slides --> 
+                            <div class="slides">
+                                
+                                <!--Start slide 1-->
+                                <div class="slide" id="#one">
+                                    
+                                    <!-- ===== start timer & home div ===== -->
+                                    <div class="timer home"> 
+                                        <div class="row">
+                                            
+                                            <!-- days div -->
+                                            <div class="days col-md-3 col-xs-6">
+                                                <div class="circle"></div>
+                                                <p id="day"></p>
+                                                <p class="static">Days</p>
+                                            </div>
+                                            
+                                            <!-- hours div -->
+                                            <div class="hours col-md-3 col-xs-6">
+                                                <div class="circle"></div>
+                                                <p id="hour"></p>
+                                                <p class="static">Hours</p>
+                                            </div>
+                                            
+                                            <!-- minutes div -->
+                                            <div class="minutes col-md-3 col-xs-6">
+                                                <div class="circle"></div>
+                                                <p id="minute"></p>
+                                                <p class="static">Minutes</p>
+                                            </div>
+                                            
+                                            <!-- second div -->
+                                            <div class="seconds col-md-3 col-xs-6">
+                                                <div class="circle"></div>
+                                                <p id="second"></p>
+                                                <p class="static">Seconds</p>
+                                            </div>
+                                            
+                                        </div> <!-- end row div -->    
+                                            
+                                       
+                                    </div> <!-- End timer & home div -->    
+                                </div> <!-- End slide 1 div -->
+                                
+                                <!--Start slide 2-->
+                                <div class="slide" id="#two">
+                                    
+                                    <!-- ======= Start about div ======== -->
+                                    <div class="about">
+                                        
+                                        <div class="row">
+                                            
+                                            <div class="col-md-6">
+                                                <!-- about's image -->
+                                                <img src="Images/A.jpg" alt="us"/>
+                                            </div>
+                                            
+                                            <!-- a bout text section-->
+                                            <section class="col-md-6"> 
+                                                <h2>We are</h2>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                    Maecenas iaculis varius urna, id bibendum est placerat
+                                                    sit amet. Etiam sapien ipsum, gravida vel elementum in,
+                                                    tincidunt et nulla. Cras viverra ut lectus nec pretium.
+                                                    Morbi hendrerit dolor et consequat venenatis.
+                                                </p>
+                                            </section>
+                                            
+                                        </div> <!-- End row div -->
+                                        
+                                    </div> <!-- End a bout div -->
+                                </div> <!-- End slide div -->
+                                
+                                <!-- start slide 3 div -->
+                                <div class="slide" id="#three">
+                                    
+                                    <!-- ===== Start services div ===== -->
+                                    <div class="services">
+                                        <h2>Services</h2>
+                                        <div class="row">
+                                            
+                                            <!-- start features -->
+                                            <section class="col-md-6">
+                                                <i class="fa fa-diamond fa-3x"></i>
+                                                <h3>Features</h3>
+                                                <!-- Features text -->
+                                                <p>
+                                                    ipsum dolor sit amet, consectetur adipisicing elit.
+                                                    Obcaecati odit possimus saepe A expedita fugit quae quaerat
+                                                </p>
+                                                <button>Read more</button>
+                                            </section>
+                                            
+                                            <!-- start support -->
+                                            <section class="col-md-6">
+                                                <i class="fa fa-cogs fa-3x"></i>
+                                                <h3>Support</h3>
+                                                <!-- support text -->
+                                                <p>
+                                                    ipsum dolor sit amet, consectetur adipisicing elit.
+                                                    Obcaecati odit possimus saepe A expedita fugit quae quaerat
+                                                </p>
+                                                <button>Read more</button>
+                                            </section>
+            
+                                            
+                                        </div><!--End row div -->
+                                        
+                                    </div> <!-- End services div -->
+                                </div> <!-- End slide div -->
+                                
+                                <!-- start slide 4 div -->
+                                <div class="slide" id="#four">
+                                    
+                                    <!-- ====== Start Subscription div ====== -->
+                                    <div class="Subscription">
+                                        <h2>Subscription</h2>
+                                        
+                                        <div class="row">
+                                            <!-- Start address div -->
+                                            <div class="col-md-4">
+                                                <i class="fa fa-map-marker fa-2x"></i>
+                                                <p>
+                                                    EX INC.
+                                                <br/>
+                                                    DOWNTWON DR 1199
+                                                </p>
+                                            </div>
+                                            <!-- Start phone div -->
+                                            <div class="col-md-4">
+                                                <i class="fa fa-phone fa-2x"></i>
+                                                <p>
+                                                    [01] 11-22
+                                                </p>
+                                                <p>
+                                                    [02] 11-22
+                                                </p>
+                                            </div>
+                                            <!-- Start email div -->
+                                            <div class="col-md-4">
+                                                <i class="fa fa-envelope-o fa-2x"></i>
+                                                <!-- edit the email link & email title -->
+                                                <a href="#">domy@youremail.com</a>
+                                            </div>
+                                            <!-- Start contact form -->
+                                        
+                                            <form class="form" action="contactUs.php" method="post">
+                                                
+                                                <div class="form-group col-md-12">
+                                                <input type="name" required placeholder="Your subject" name="subject" class="form-control"/>   
+                                                <input type="email" required placeholder="Your Email" class="form-control" name="emali"/>
+                                                <textarea name="msg" required placeholder="Text" class="text"></textarea><br/>
+                                                <input id="button" type="submit" name="send" value="send"/>
+                                                </div>
+                                            </form>
+                                            
+                                        </div> <!-- end row div -->
+                                    </div> <!--end Subscription div-->
+                                </div> <!-- end slide div -->
+                                
+                            </div>  <!-- end slider div -->
+                        </div> <!-- ============ end wrapper div ============= -->
+                        
+                        <!-- ============ Start social media links ============== -->
+                        <footer class="social">
+                            <!-- the next 5 links to add social media path link -->
+                            <a href="https://facebook.com/" target="_blank">
+                                <i class="fa fa-facebook-square fa-3x"></i>
+                            </a>
+                            
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fa fa-twitter-square fa-3x"></i>
+                            </a>
+                            
+                            <a href="https://plus.google.com/" target="_blank">
+                                <i class="fa fa-google-plus-square fa-3x"></i>
+                            </a>
+                            
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <i class="fa fa-linkedin-square fa-3x"></i>
+                            </a>
+                            
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <i class="fa fa-youtube-square fa-3x"></i>
+                            </a>
+                            
+                        </footer>
+                        <!-- End social media links -->
+                        
+                    </div> <!-- End container div -->
+                    
+                </main>
+                
+            </div> <!-- end slideshow-container div -->
+            <!-- ========== end slideshow-container =========== -->
+            
+            <!-- ========= Start loading page =========== -->
+            <div class="loading">
+                <div class="sk-circle">
+                    <div class="sk-circle1 sk-child"></div>
+                    <div class="sk-circle2 sk-child"></div>
+                    <div class="sk-circle3 sk-child"></div>
+                    <div class="sk-circle4 sk-child"></div>
+                    <div class="sk-circle5 sk-child"></div>
+                    <div class="sk-circle6 sk-child"></div>
+                    <div class="sk-circle7 sk-child"></div>
+                    <div class="sk-circle8 sk-child"></div>
+                    <div class="sk-circle9 sk-child"></div>
+                    <div class="sk-circle10 sk-child"></div>
+                    <div class="sk-circle11 sk-child"></div>
+                    <div class="sk-circle12 sk-child"></div>
+                </div>
+            </div>
+            <!-- ========== End loading page ============= -->
+            
+            <script src="js/jquery-3.2.1.min.js"></script> <!-- JQuery js file -->
+            <script src="js/bootstrap.min.js"></script>  <!-- Bootstrap js file -->
+            <script src="js/orbit.js"></script> <!-- the main Java Script file -->
+        </body>
+    </html>
